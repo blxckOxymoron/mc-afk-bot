@@ -1,0 +1,17 @@
+{
+  "name": "mc-afk-bot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK bot with discord webhook notifications",
+  "main": "./build/index.js",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "server": "cd server && java -jar -Xmx2g paper.jar nogui"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "mineflayer": "^4.14.0"
+  },
+  "type": "module"
+}
